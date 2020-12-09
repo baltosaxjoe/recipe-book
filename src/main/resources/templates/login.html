@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments :: head"></head>
+<body>
+<div class="register-form">
+<form>
+    <div class="form-field">
+        <label>Username
+            <input>
+        </label>
+    </div>
+
+    <div class="form-field">
+        <label>Password
+            <input>
+        </label>
+    </div>
+</form>
+<a th:href="@{/register}">Need to create an account?</a>
+</div>
+</body>
+</html>

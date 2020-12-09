@@ -10,4 +10,9 @@ public class AuthenticationController {
     public String displayRegistrationForm(){
         return "register";
     }
+
+    @GetMapping("/login")
+    public String displayLoginForm(){
+        return "login";
+    }
 }

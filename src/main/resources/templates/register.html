@@ -2,25 +2,28 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head th:replace="fragments :: head"></head>
 <body>
-    <form class="register-form">
-        <div>
+    <div  class="register-form">
+    <form>
+        <div class="form-field">
             <label>Username
                 <input>
             </label>
         </div>
 
-        <div>
+        <div class="form-field">
             <label>Password
                 <input>
             </label>
         </div>
 
-        <div>
+        <div class="form-field">
             <label>Verify Password
                 <input>
             </label>
         </div>
 
     </form>
+    <a th:href="@{/login}">Already have an account?</a>
+    </div>
 </body>
 </html>
