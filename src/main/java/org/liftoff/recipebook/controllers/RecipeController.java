@@ -19,7 +19,7 @@ import javax.servlet.http.HttpSession;
 
 @Controller
 
-public class  RecipeController {
+public class RecipeController {
     @Autowired
     private RecipeRepository recipeRepository;
 
@@ -55,7 +55,7 @@ public class  RecipeController {
 
      System.out.print(currentUserId);
 
-        //save the recipe to the database
+        //save the recipe to th database
         recipe.setUserId(currentUserId);
         recipe.setImageUrl(imageUrl);
         recipe.setName(name);
@@ -63,15 +63,15 @@ public class  RecipeController {
         recipe.setIngredients(hiddenIngredients);
         recipe.setCategory(category);
         recipeRepository.save(recipe);
-    return "view";
+    return "redirect:";
     }
 
     //this is just to test the url function.
-//    @GetMapping("testpic")
-//    public String testPic(Model model){
-//       model.addAttribute("recipePic",recipeRepository.findById(80));
-//        System.out.print("something");
-//        return "testpic";
-//    }
+    @GetMapping("testpic")
+    public String testPic(Model model){
+       model.addAttribute("recipePic",recipeRepository.findById(80));
+        System.out.print("something");
+        return "testpic";
+    }
 
 }
