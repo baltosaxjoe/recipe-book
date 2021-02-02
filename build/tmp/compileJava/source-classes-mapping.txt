@@ -36,5 +36,3 @@ org/liftoff/recipebook/controllers/RecipeCategoryController.java
  org.liftoff.recipebook.controllers.RecipeCategoryController
 org/liftoff/recipebook/controllers/RecipeController.java
  org.liftoff.recipebook.controllers.RecipeController
-org/liftoff/recipebook/controllers/ViewController.java
- org.liftoff.recipebook.controllers.ViewController
