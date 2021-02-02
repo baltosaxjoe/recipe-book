@@ -34,7 +34,7 @@ org/liftoff/recipebook/models/dto/LoginFormDTO.java
  org.liftoff.recipebook.models.dto.LoginFormDTO
 org/liftoff/recipebook/models/dto/RegisterFormDTO.java
  org.liftoff.recipebook.models.dto.RegisterFormDTO
-org/liftoff/recipebook/controllers/ViewController.java
- org.liftoff.recipebook.controllers.ViewController
 org/liftoff/recipebook/controllers/RecipeController.java
  org.liftoff.recipebook.controllers.RecipeController
+org/liftoff/recipebook/controllers/ViewController.java
+ org.liftoff.recipebook.controllers.ViewController
